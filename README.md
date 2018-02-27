@@ -9,11 +9,23 @@ Run
 ```sh
 python3 MazeGenerator.py <height> <width> <seed>
 ```
-to generate a `10 x 10` maze. Optionally, input integer parameters
+to generate a `10 x 10` maze. 
+
+Optionally, input integer parameters
 ```sh
 python3 MazeGenerator.py <height> <width>
 ```
-for a `<height> x <width>` maze. Additionally, the program supports seeding for reproducable mazes:
+for a `<height> x <width>` maze. 
+
+Additionally, the program supports seeding for reproducable mazes:
 ```sh
 python3 MazeGenerator.py <height> <width> <seed>
 ```
+
+To export maze into file, use the terminal piping command:
+```sh
+python3 MazeGenerator.py > cool_maze.txt
+```
+
+## Reading the Output
+Empty squares are denoted as paths. Walls are filled in rectangles. The borders are double lines.
