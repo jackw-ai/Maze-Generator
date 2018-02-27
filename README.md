@@ -30,7 +30,7 @@ python3 MazeGenerator.py > cool_maze.txt
 ## Reading the Output
 Empty (round-edged) squares are denoted as paths. Walls are filled in rectangles. The borders are double lines. Starting point denoted `S` and end point denoted `E`. 
 
-A `4 x 4` sample:
+Here is a `4 x 4` sample:
 
 ```sh
 =========
@@ -43,5 +43,6 @@ A `4 x 4` sample:
 ‖E▢▢▢▢▢▢‖
 =========
 ```
+Another `100 x 100` maze is stored in `sample_maze.txt`
 ## Requirements
 Python3 is recommended. To use a lower version, uncomment the first line to import the print function from the `__future__`.
