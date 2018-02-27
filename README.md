@@ -26,6 +26,7 @@ To export maze into file, use the terminal piping command:
 ```sh
 python3 MazeGenerator.py > cool_maze.txt
 ```
+All program prompts are printed to `stderr` so only the maze will be piped.
 
 ## Reading the Output
 Empty (round-edged) squares are denoted as paths. Walls are filled in rectangles. The borders are double lines. Starting point denoted `S` and end point denoted `E`. 
