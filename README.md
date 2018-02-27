@@ -32,7 +32,7 @@ Empty squares are denoted as paths. Walls are filled in rectangles. The borders 
 
 A `4 x 4` sample:
 
-```
+```sh
 =========
 ‖S▢▢▢▢▢▢‖
 ‖▢▬▢▬▢▬▬‖
