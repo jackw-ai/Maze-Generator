@@ -43,3 +43,5 @@ A `4 x 4` sample:
 ‖E▢▢▢▢▢▢‖
 =========
 ```
+## Requirements
+Python3 is recommended. To use a lower version, uncomment the first line to import the print function from the `__future__`.
