@@ -1,6 +1,10 @@
 # (c) 2018 Tingda Wang
 # maze generator using Prim's algoirthm
 
+''' for running on python v2 '''
+# uncomment the following line to import python3 print function to python            
+# from __future__ import print_function     
+
 import random, sys
 
 CELL = chr(0x25A2) # empty tile, represented by empty square
