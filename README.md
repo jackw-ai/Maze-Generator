@@ -28,7 +28,7 @@ python3 MazeGenerator.py > cool_maze.txt
 ```
 
 ## Reading the Output
-Empty squares are denoted as paths. Walls are filled in rectangles. The borders are double lines. Starting point denoted `S` and end point denoted `E`. 
+Empty (round-edged) squares are denoted as paths. Walls are filled in rectangles. The borders are double lines. Starting point denoted `S` and end point denoted `E`. 
 
 A `4 x 4` sample:
 
